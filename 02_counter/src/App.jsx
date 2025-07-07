@@ -5,11 +5,15 @@ import './App.css'
 
 function App() {
   // let counter=5
-  const [counter,setCouter]=useState(5)
+  const [counter,setCouter]=useState(15)
 
   const AddValue=()=>{
 
    setCouter(counter+1)
+   setCouter(counter+1)
+   setCouter(counter+1)
+   setCouter(counter+1)
+   setCouter(counter+1) //uses fibre react 
     
     
   }

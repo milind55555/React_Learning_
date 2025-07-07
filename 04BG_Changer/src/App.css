@@ -1,0 +1,17 @@
+.bg-changer-btn {
+  transition: transform 0.1s, box-shadow 0.2s;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+.bg-changer-btn:hover {
+  transform: translateY(-2px) scale(1.05);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+  opacity: 0.9;
+}
+.bg-changer-btn:active {
+  transform: scale(0.98);
+}
+.bg-changer-panel {
+  background: rgba(255,255,255,0.85);
+  backdrop-filter: blur(6px);
+  border: 1px solid #e5e7eb;
+}
