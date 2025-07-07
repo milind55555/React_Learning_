@@ -9,6 +9,7 @@ function App() {
 
   
   return (
+    <>
     <div
       className="w-full h-screen duration-200 flex items-center justify-center"
       style={{ backgroundColor: color }}
@@ -51,6 +52,7 @@ function App() {
         </button>
       </div>
     </div>
+    </>
   )
 
 }
